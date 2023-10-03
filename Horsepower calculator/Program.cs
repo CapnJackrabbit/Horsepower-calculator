@@ -14,6 +14,8 @@ namespace Horsepower_calculator
             Calculator C1 = new Calculator(torque, rpm);
 
             Console.WriteLine(C1 + "\n");
+
+            System.Console.ReadKey();
         }
     }
 }
